@@ -14,6 +14,7 @@ namespace GymManagmentBLL.Services.Classes
     {
         private readonly IUnitOfWork _unitOfWork;
 
+
         public MemberService(IUnitOfWork unitOfWork)
         {
             this._unitOfWork = unitOfWork;
